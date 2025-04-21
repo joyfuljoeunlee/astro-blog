@@ -7,11 +7,12 @@ import "@/styles/global.css";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="/src/scripts/toggle-theme.ts"></script>
   </head>
   <body class="bg-background max-w-3xl m-auto">
     <GlobalNavigationBar />
-    <article>
+    <main>
       <slot />
-    </article>
+    </main>
   </body>
 </html>
