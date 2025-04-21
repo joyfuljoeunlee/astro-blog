@@ -1,0 +1,17 @@
+---
+import GlobalNavigationBar from "@/components/GlobalNavigationBar.astro";
+import "@/styles/global.css";
+---
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="bg-background max-w-3xl m-auto">
+    <GlobalNavigationBar />
+    <article>
+      <slot />
+    </article>
+  </body>
+</html>
